@@ -1,2 +1,2 @@
 # Smart-Elevator-Simulation
-Smart elevator simulation with background music ,animations and Mail sending feature
+Smart elevator simulation using multithreading with background music ,animations and Mail sending feature
