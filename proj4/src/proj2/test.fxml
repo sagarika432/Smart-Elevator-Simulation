@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="434.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj2.TestController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="188.0" layoutY="178.0" ripplerFill="#ff0909" style="-fx-background-color: blue;" text="hiii" textFill="WHITE" />
+   </children>
+</AnchorPane>

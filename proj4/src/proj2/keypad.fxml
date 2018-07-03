@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="434.0" prefWidth="421.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj2.KeypadController">
+    
+   <children>
+      <JFXButton fx:id="lift0" buttonType="RAISED" layoutX="105.0" layoutY="293.0" onAction="#lift0action" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-pref-height: 70; -fx-pref-width: 70; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70;" text="0" />
+      <JFXButton fx:id="lift1" buttonType="RAISED" layoutX="211.0" layoutY="293.0" onAction="#lift1action" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-pref-height: 70; -fx-pref-width: 70; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70;" text="1" />
+      <JFXButton fx:id="lift2" buttonType="RAISED" layoutX="211.0" layoutY="217.0" onAction="#lift2action" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-pref-height: 70; -fx-pref-width: 70; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70;" text="2" />
+      <JFXButton fx:id="lift3" buttonType="RAISED" layoutX="105.0" layoutY="217.0" onAction="#lift3action" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-pref-height: 70; -fx-pref-width: 70; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70;" text="3" />
+      <JFXButton fx:id="lift7" buttonType="RAISED" layoutX="105.0" layoutY="65.0" onAction="#lift7action" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-pref-height: 70; -fx-pref-width: 70; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70;" text="7" />
+      <JFXButton fx:id="lift5" buttonType="RAISED" layoutX="211.0" layoutY="141.0" onAction="#lift5action" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-pref-height: 70; -fx-pref-width: 70; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70;" text="5" />
+      <JFXButton fx:id="lift4" buttonType="RAISED" layoutX="105.0" layoutY="141.0" onAction="#lift4action" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-pref-height: 70; -fx-pref-width: 70; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70;" text="4" />
+      <JFXButton fx:id="lift6" buttonType="RAISED" layoutX="211.0" layoutY="65.0" onAction="#lift6action" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-pref-height: 70; -fx-pref-width: 70; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70;" text="6" />
+      <MenuButton layoutX="300.0" layoutY="32.0" mnemonicParsing="false" style="-fx-background-color: #5cceff; -fx-scale-z: 10; -fx-border-width: 3; -fx-border-color: black;" text="ELEVATOR" underline="true">
+        <items>
+          <MenuItem fx:id="elevator1" mnemonicParsing="false" onAction="#elevator1action" text="ELEVATOR1" />
+          <MenuItem fx:id="elevator2" mnemonicParsing="false" onAction="#elevator2action" text="ELEVATOR2" />
+        </items>
+      </MenuButton>
+      <JFXButton fx:id="ALARM" layoutX="299.0" layoutY="176.0" onAction="#alarmaction" prefWidth="70.0" ripplerFill="#f8f4f4" style="-fx-background-radius: 60; -fx-pref-height: 60; -fx-pref-width: 60; -fx-border-color: #f8fc10; -fx-scale-z: 10; -fx-border-width: 6; -fx-border-radius: 70; -fx-background-color: #f8f4f4;" stylesheets="@textfieldstyle.css" text=" " />
+   </children>
+</AnchorPane>

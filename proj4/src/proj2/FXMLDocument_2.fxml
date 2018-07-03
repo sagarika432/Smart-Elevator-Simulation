@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj2.FXMLDocumentController2">
+   <children>
+      <GridPane layoutX="61.0" layoutY="97.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefWidth="95.0" style="-fx-background-color: #5cceff; -fx-scale-z: 10; -fx-border-color: black; -fx-border-width: 2;" text="SEVENTH FLOOR" />
+            <Label prefWidth="95.0" style="-fx-background-color: #5cceff; -fx-scale-z: 10; -fx-border-color: black; -fx-border-width: 2;" text="SIXTH FLOOR" GridPane.rowIndex="1" />
+            <Label prefWidth="95.0" style="-fx-background-color: #5cceff; -fx-scale-z: 10; -fx-border-color: black; -fx-border-width: 2;" text="FIFTH FLOOR" GridPane.rowIndex="2" />
+            <Label prefWidth="95.0" style="-fx-background-color: #5cceff; -fx-scale-z: 10; -fx-border-color: black; -fx-border-width: 2;" text="FOURTH FLOOR" GridPane.rowIndex="3" />
+            <Label prefWidth="95.0" style="-fx-background-color: #5cceff; -fx-scale-z: 10; -fx-border-color: black; -fx-border-width: 2;" text="THIRD FLOOR" GridPane.rowIndex="4" />
+            <Label prefWidth="95.0" style="-fx-background-color: #5cceff; -fx-border-color: black; -fx-scale-z: 10; -fx-border-width: 2;" text="SECOND FLOOR" GridPane.rowIndex="5" />
+            <Label prefWidth="95.0" style="-fx-background-color: #5cceff; -fx-border-color: black; -fx-scale-z: 10; -fx-border-width: 2;" text="FIRST FLOOR" GridPane.rowIndex="6" />
+            <Label prefWidth="95.0" style="-fx-background-color: #5cceff; -fx-border-color: black; -fx-scale-z: 10; -fx-border-width: 2;" text="GROUND FLOOR" GridPane.rowIndex="7" />
+            <TextField fx:id="text7" style="-fx-border-color: black; -fx-border-width: 2;" stylesheets="@textfieldstyle.css" GridPane.columnIndex="1" />
+            <TextField fx:id="text6" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="text5" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="text4" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="text3" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="text2" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField fx:id="text1" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField fx:id="text0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField fx:id="textt1" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <TextField fx:id="textt2" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <TextField fx:id="textt3" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <TextField fx:id="textt4" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <TextField fx:id="textt5" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <TextField fx:id="textt6" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField fx:id="textt7" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" />
+            <TextField fx:id="textt0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="434.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj2.FloorController">
+   <children>
+      <JFXButton fx:id="upid" buttonType="RAISED" layoutX="168.0" layoutY="157.0" onAction="#upidaction" prefHeight="65.0" prefWidth="67.0" ripplerFill="#f50707" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-border-radius: 70; -fx-border-color: #f8fc10; -fx-border-width: 6; -fx-pref-height: 70; -fx-pref-width: 70; -fx-scale-z: 20;" text="UP" textFill="#0d0d0d" />
+      <JFXButton fx:id="downid" buttonType="RAISED" layoutX="168.0" layoutY="235.0" onAction="#downidaction" prefHeight="65.0" prefWidth="67.0" ripplerFill="RED" style="-fx-background-color: #5cceff; -fx-background-radius: 70; -fx-border-radius: 70; -fx-border-color: #f8fc10; -fx-border-width: 6; -fx-pref-height: 70; -fx-pref-width: 70; -fx-scale-z: 20;" text="DOWN" textFill="#171717" />
+   </children>
+</AnchorPane>

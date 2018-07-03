@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="stackpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj2.FXMLDocumentController3">
+   <children>
+      <ImageView fx:id="imageid" fitHeight="707.0" fitWidth="1332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Plain-Black-HD-Desktop-Backgrounds.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="anchorpane" prefHeight="373.0" prefWidth="600.0">
+         <children>
+            <JFXButton fx:id="clickmebutton" buttonType="RAISED" layoutX="238.0" layoutY="226.0" onAction="#clickmeaction" prefHeight="129.0" prefWidth="125.0" style="-fx-background-color: #FF0000; -fx-text-fill: #FFFF; -fx-background-radius: 2000;" text="Click Me" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

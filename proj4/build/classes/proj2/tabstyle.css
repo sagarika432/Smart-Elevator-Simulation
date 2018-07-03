@@ -1,0 +1,25 @@
+.tab
+{
+    -fx-background-color:  #5cceff;
+    -fx-background: red;
+    
+}
+.tab-hover
+{
+    -fx-background: red;
+    
+    
+}
+.tab-selected
+{
+    -fx-background: yellow;
+}
+/*.JFXtabpane
+{
+    -fx-background-color: pink;
+}
+*/
+.tab-header-background
+{
+    -fx-background-color:  #5cceff;
+}
